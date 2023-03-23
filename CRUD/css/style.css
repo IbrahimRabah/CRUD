@@ -1,0 +1,75 @@
+html{
+    scroll-behavior: smooth;
+}
+textarea{
+    resize: none;
+}
+ 
+#mainBtn{
+        
+        width: 35%;
+        height: 45px;
+        background: green;
+        color: white;
+        border:none;
+        border-radius: 20px;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+    
+}    
+    @keyframes shake { 20% {background-color: slateblue ; }
+        50% {background-color: aqua; transform: translateX(-10px);}
+        100%{background-color: red; transform: translateX(10px);}
+    
+    }
+    @keyframes link-ani { 20% {background-color: green ; }
+        50% {background-color: aqua;}
+        100%{background-color: red;}
+    
+    }
+    
+    header {
+        width: 100%;
+        height: 75px;
+        background: #172035;
+        text-align: center;
+        color: white;
+        padding: 15px;
+    }
+    
+  
+h1:hover {
+    /* transition: 
+    color white; */
+    /* background: #09568d;  
+    padding: 30px; */
+    animation-name: link-ani;
+    animation-duration : 1.25s;
+    animation-iteration-count : infinite;
+    animation-fill-mode: both;
+
+}
+input{
+    width: 20%;
+}
+label{
+    width: 20%;
+}
+table{
+    background-color: white;
+    
+}
+th{
+    color: white;
+    border: 2px solid darkcyan;
+}
+td{
+    color: white;
+    border: 2px solid darkcyan;
+
+}
+body{
+    background-color: darkcyan;
+}
